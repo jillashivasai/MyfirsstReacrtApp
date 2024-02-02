@@ -1,25 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import ColorChanger from './components/ColorChanger'; // Assuming the component file is named ColorChanger.js and is located in the 'components' folder
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => <ColorChanger />; // Correct way to define a functional component in JSX
 
 export default App;
